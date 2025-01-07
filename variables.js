@@ -5,7 +5,12 @@ function variables_print()
 	let number1=20;
 	let number2=10;
 
+	const number3=11;		// const宣言は定数(代入できない)
+
 	number1++;				// 数値(に人には見える)値をインクリメント
+
+//	number3=14;				// 定数値を際代入するとエラー
+
 //	str1++;					// 文字列をインクリメント
 	let add = number1+number2;	// 二つの数値を足し合わせる
 	let string=str1+str2;		// 2つの文字列を足し合わせる
